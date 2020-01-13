@@ -1,0 +1,71 @@
+body{
+    background-color: #DADDE0
+}
+div{
+    text-align: center;
+}
+.nav-div .nav-dock {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    width: auto;
+    overflow: hidden;
+    display: inline-block;
+}
+.nav-div .nav-dock li{
+    text-align: center;
+    border: 1px solid #555;
+    float: left;
+}
+.nav-div .nav-dock li a {
+    display: block;
+    text-decoration: none;
+    padding: 8px 16px;
+    background-color: #ddd;
+}
+.nav-div .nav-dock li a:hover {
+    background-color: #555;
+    color: white;
+}
+.nav-div .nav-dock li a.active {
+    background-color: #89C3F6;
+    color: white;
+}
+h1{
+    font-size: 40pt;
+    padding: 10px;
+    text-align: center
+}
+
+.image-container{
+    text-align: center;
+}
+#gallery{
+    float:left;
+    display: inline;
+    padding: 115px;
+    
+}
+img{
+    border: solid .5px;
+    border-bottom: solid 1px;
+    display: inline-block;
+}
+img:hover{
+    transform: scale(1.8);
+    border: none;
+}
+.image-container a:link {
+  color: black;
+}
+
+
+.image-container a:visited {
+  color: black;
+}
+
+
+#myCanvas{
+    background: #eee;
+    border: solid 2px;
+}
