@@ -111,7 +111,7 @@ function myFunct() {
                         totalScore++;
                         if (score == brickColumnCount * brickRowCount) {
                             level++;
-                            
+
                             score = 0;
                             brickColumnCount++;
                             brickWidth = canvas.width / brickColumnCount - brickPadding * 2.5;
@@ -131,7 +131,7 @@ function myFunct() {
                         }
                     }
                     //
-                    
+
                     //
                 }
             }
